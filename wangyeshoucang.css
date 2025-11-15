@@ -1,0 +1,130 @@
+@charset UTF-8;
+body{
+		margin: 0px;
+		padding: 0px;
+		background: #f8f9fd;
+	}
+	.box-a{
+		width: 130px;
+		height: 100vh;
+		background-color:#D5E2FC;
+		position: fixed;
+		margin: 0px;
+	}
+	.box-a1{
+		width: 130px;
+		height: 100px;
+		position: fixed;
+		margin: 0px;
+		padding: 0px;
+	}
+	.box-a2{
+		width: 130px;
+		height: 100px;
+		position: fixed;
+		margin-top: 150px;
+		padding: 0px;
+	}
+	.box-a2 p{
+		text-align: center;
+		font-size: 10px;
+		font-family:"幼圆";
+		color:#373232;
+	}
+	.box-a1 img{
+		margin: 40px;
+	}
+	.mulu-a {
+            margin-top: 110px;
+			list-style: none;
+		    padding: 0px;
+		    text-align: center;
+		
+    }
+	.mulu-a li{
+		    margin: 8px;
+	}
+	.mulu-a a{
+		    display: block;
+            padding: 10px;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            font-size: 14px;
+		    font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', 'sans-serif';
+	}
+	.mulu-a a:hover {
+            border-radius: 10px;
+		    background-color:#A0BBF3;
+            color: white;
+    } 
+    .mulu-a a.active {
+            border-radius: 10px;
+		    background-color:cornflowerblue;
+            color: white;
+    }
+	.box-b {
+            flex: 1;
+            margin-left: 130px;
+            padding: 10px 10px 25px 30px;
+           
+            height: 100vh;
+    }
+	.box-b h3{
+		    font-family: "幼圆";
+		    font-size: 14px;
+		/* 添加滚动边距，使滚动定位更准确 */
+            scroll-margin-top: 20px;
+	}
+	.box-b1{
+            margin-bottom: 20px;
+            padding: 0px 15px 15px 0px;
+		    display: flex;
+		    flex-wrap: wrap;
+            transition: transform 0.3s ease;
+	}
+	.box-b2 {
+            width: 15%;
+            min-width: 220px;
+            padding: 0px 15px 0px 15px;
+		    margin: 0px 20px 20px 0px;
+		    background: white;
+		    border-radius: 10px;
+		    box-shadow:0 1px 8px #ccc;
+    }
+	.box-b2 h6 {
+	        font-size: 12px;
+	        font-family: 'Segoe UI''DejaVu Sans''Trebuchet MS''Verdana''sans-serif';
+	        line-height: 1px;
+	        margin-top: 0px;
+	        margin-bottom: 18px;
+	        text-align: left;
+	        font-weight: normal;
+	        margin-left: 30px;
+	}
+	.box-b2:hover {
+		    background:#DBE9F5;
+    }
+	.box-b2 p{
+		    font-family: 'Segoe UI'"幼圆";
+		    font-size: 14px;
+	}
+	.icon {
+            vertical-align: middle;
+            margin-right: 5px;
+    }
+a:link {
+	color:#344FEB;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #1E0DF3;
+}
+a:hover {
+	text-decoration: none;
+	color: #F4191D;
+}
+a:active {
+	text-decoration: none;
+	color: #F4191D;
+}
