@@ -43,7 +43,6 @@ body{
 			list-style: none;
 		    padding: 0px;
 		    text-align: center;
-		
     }
 	.mulu-a li{
 		    margin: 8px;
@@ -115,20 +114,20 @@ body{
             vertical-align: middle;
             margin-right: 5px;
     }
-a:link {
-	color:#344FEB;
-	text-decoration: none;
-}
-a:visited {
-	text-decoration: none;
-	color: #1E0DF3;
-}
-a:hover {
-	text-decoration: none;
-	color: #F4191D;
-}
-a:active {
-	text-decoration: none;
-	color: #F4191D;
+    a:link {
+	    color:#344FEB;
+	    text-decoration: none;
+    }
+    a:visited {
+	    text-decoration: none;
+	    color: #1E0DF3;
+    }
+    a:hover {
+    	text-decoration: none;
+    	color: #F4191D;
+    }
+    a:active {
+    	text-decoration: none;
+	    color: #F4191D;
+    }
 
-}
