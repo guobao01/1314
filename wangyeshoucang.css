@@ -44,7 +44,6 @@ body{
 			list-style: none;
 		    padding: 0px;
 		    text-align: center;
-		
     }
 	.mulu-a li{
 		    margin: 8px;
@@ -77,7 +76,6 @@ body{
 	.box-b h3{
 		    font-family: "幼圆";
 		    font-size: 14px;
-		/* 添加滚动边距，使滚动定位更准确 */
             scroll-margin-top: 20px;
 	}
 	.box-b1{
@@ -117,19 +115,20 @@ body{
             vertical-align: middle;
             margin-right: 5px;
     }
-a:link {
-	color:#165DFF;
-	text-decoration: none;
-}
-a:visited {
-	text-decoration: none;
-	color:#165DFF;
-}
-a:hover {
-	text-decoration: none;
-	color: #F4191D;
-}
-a:active {
-	text-decoration: none;
-	color: #F4191D;
-}
+    a:link {
+	    color:#165DFF;
+	    text-decoration: none;
+    }
+    a:visited {
+	    text-decoration: none;
+	    color:#165DFF;
+    }
+    a:hover {
+    	text-decoration: none;
+	    color: #F4191D;
+    }
+    a:active {
+	    text-decoration: none;
+	    color: #F4191D;
+    }
+
