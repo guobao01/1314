@@ -5,21 +5,24 @@ body{
 		background: #f8f9fd;
 	}
 	.box-a{
-		width: 130px;
+		width: 150px;
 		height: 100vh;
 		background-color:#D5E2FC;
 		position: fixed;
 		margin: 0px;
 	}
 	.box-a1{
-		width: 130px;
+		width: 150px;
 		height: 100px;
 		position: fixed;
 		margin: 0px;
 		padding: 0px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 	.box-a2{
-		width: 130px;
+		width: 150px;
 		height: 100px;
 		position: fixed;
 		margin-top: 150px;
@@ -32,7 +35,8 @@ body{
 		color:#373232;
 	}
 	.box-a1 img{
-		margin: 40px;
+		margin-top: 30px;
+		object-fit: contain;
 	}
 	.mulu-a {
             margin-top: 110px;
@@ -64,7 +68,7 @@ body{
     }
 	.box-b {
             flex: 1;
-            margin-left: 130px;
+            margin-left: 150px;
             padding: 10px 10px 25px 30px;
            
             height: 100vh;
@@ -72,7 +76,6 @@ body{
 	.box-b h3{
 		    font-family: "幼圆";
 		    font-size: 14px;
-		/* 添加滚动边距，使滚动定位更准确 */
             scroll-margin-top: 20px;
 	}
 	.box-b1{
@@ -127,4 +130,5 @@ a:hover {
 a:active {
 	text-decoration: none;
 	color: #F4191D;
+
 }
